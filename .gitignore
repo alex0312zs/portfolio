@@ -1,0 +1,8 @@
+# Claude Code 配置与本地 MCP 依赖,不应进入作品集仓库
+.claude/
+node_modules/
+
+# 系统与编辑器杂项
+Thumbs.db
+.DS_Store
+*.log
