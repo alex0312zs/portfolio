@@ -1899,9 +1899,9 @@ body::before {
   pointer-events: none;
   opacity: 0;
   background:
-    linear-gradient(110deg, transparent 0%, rgba(255, 255, 255, .1) 22%, transparent 44%),
+    linear-gradient(135deg, transparent 0%, rgba(255, 255, 255, .1) 22%, transparent 44%),
     linear-gradient(135deg, rgba(255,255,255,.06), rgba(255,255,255,.015));
-  transform: translateX(-100%);
+  transform: translate(-120%, -120%);
 }
 
 .detail-card.is-loading::after {
@@ -1929,8 +1929,8 @@ body::before {
 }
 
 @keyframes skeleton-shimmer {
-  from { transform: translateX(-100%); }
-  to { transform: translateX(100%); }
+  from { transform: translate(-120%, -120%); }
+  to { transform: translate(120%, 120%); }
 }
 
 /* Restore original full-image hero. */
